@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "verseny_menedzsment_rendszer", "verseny_menedzsment_rendszer.csproj", "{AB130A30-6DD8-46FA-AD01-8D8A6EF38CEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB130A30-6DD8-46FA-AD01-8D8A6EF38CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB130A30-6DD8-46FA-AD01-8D8A6EF38CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB130A30-6DD8-46FA-AD01-8D8A6EF38CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB130A30-6DD8-46FA-AD01-8D8A6EF38CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
