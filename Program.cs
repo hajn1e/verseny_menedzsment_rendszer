@@ -16,6 +16,17 @@ class Program
         uszas.Versenyzok.Add(new Versenyzo("Nagy Anna", 15, "Nő"));
         futas.Versenyzok.Add(new Versenyzo("Szabó Gábor", 18, "Férfi"));
         futas.Versenyzok.Add(new Versenyzo("Kovács Júlia", 17, "Nő"));
+        
+        //Kiírjuk a versenyzők eredményeit
+        kerekpar.Versenyzok[0].Eredmenyek.Add(new Eredmeny("Kerékpár", TimeSpan.FromMinutes(15), 1));
+        kerekpar.Versenyzok[1].Eredmenyek.Add(new Eredmeny("Kerékpár", TimeSpan.FromMinutes(16), 2));
+        uszas.Versenyzok[0].Eredmenyek.Add(new Eredmeny("Úszás", TimeSpan.FromSeconds(30), 1));
+        uszas.Versenyzok[1].Eredmenyek.Add(new Eredmeny("Úszás", TimeSpan.FromSeconds(32), 2));
+        futas.Versenyzok[0].Eredmenyek.Add(new Eredmeny("Futás", TimeSpan.FromMinutes(20), 1));
+        futas.Versenyzok[1].Eredmenyek.Add(new Eredmeny("Futás", TimeSpan.FromMinutes(22), 2));
+        
+        
+        
 
         
         kerekpar.KiirUtasitas();

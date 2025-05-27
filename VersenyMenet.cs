@@ -48,7 +48,7 @@ internal class VersenyMenet
             {
                 foreach (var eredmeny in versenyzo.Eredmenyek)
                 {
-                    Console.WriteLine($"- {versenyzo.Nev} ({eredmeny.Ido} másodperc)");
+                    Console.WriteLine($"- {versenyzo.Nev} ({eredmeny.Ido} perc)");
                 }
                 
             }
